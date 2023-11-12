@@ -16,18 +16,16 @@ class CalculadoraTest {
     void tresSomaSeteEsperaDez() {
         Calculadora c = new Calculadora();
         assertTrue(c.SomaInteiros(3, 7)==10);
-
     }
 
     @Test
     void dezSubtraiSeteEsperaTres() {
         Calculadora c = new Calculadora();
         assertTrue(c.SubtraiInteiros(10, 7)==3);
-
     }
 
     @Test
-    void seisMultiplicaNovaEsperaCinquentaQuatro() {
+    void seisMultiplicaNoveEsperaCinquentaQuatro() {
         Calculadora c = new Calculadora();
         assertTrue(c.MultiplicaInteiros(6, 9)==54);
     }
@@ -35,7 +33,7 @@ class CalculadoraTest {
     @Test
     void vinteUmDivideSeteEsperaTres() {
         Calculadora c = new Calculadora();
-        assertTrue(c.DividiInteiros(21, 7)==3);
+        assertTrue(c.DivideInteiros(21, 7)==3);
     }
 
 }

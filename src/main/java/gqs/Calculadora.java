@@ -13,7 +13,7 @@ public class Calculadora {
         return a*b;
     }
 
-    public float DividiInteiros(int a, int b){
+    public float DivideInteiros(int a, int b){
         return a/b;
     }
 
